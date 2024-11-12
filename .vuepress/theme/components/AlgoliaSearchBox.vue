@@ -1,3 +1,4 @@
+<!-- Algolia 搜索框 -->
 <template>
   <form
     id="search-form"

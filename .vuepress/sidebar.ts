@@ -1,6 +1,11 @@
 import {SidebarConfig4Multiple} from "vuepress/config";
 
 import roadmapSideBar from "./sidebars/roadmapSideBar";
+
+/**
+ * 其他选项-工具条
+ * @description 侧边栏配置
+ */
 // @ts-ignore
 export default {
     "/学习路线/": roadmapSideBar,

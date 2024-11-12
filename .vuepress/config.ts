@@ -2,15 +2,14 @@ import { defineConfig } from "vuepress/config";
 import navbar from "./navbar";
 import sidebar from "./sidebar";
 import footer from "./footer";
-import extraSideBar from "./extraSideBar";
 
-const author = "程序员鱼皮";
-const domain = "https://codefather.cn";
+const author = "Alan";
+const domain = "https://codefather.cn"; // TODO 站点域名待完善
 const tags = ["程序员", "编程", "计算机"];
 
 export default defineConfig({
-  title: "鱼皮的编程宝典",
-  description: "贴心的编程学习路线，全面的编程知识百科",
+  title: "Alan&知识库",
+  description: "Alan的《技术笔记&学习笔记》知识库。",
   head: [
     // 站点图标
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -20,10 +19,10 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "程序员鱼皮, 编程学习路线, 编程知识百科, Java, 编程导航, 前端, 开发, 编程分享, 项目, IT, 求职, 面经",
+          "Alan, 编程笔记, 算法学习, Java, 学习, 开发, 后端, IT",
       },
     ],
-    // 百度统计
+    // 百度统计 TODO 百度统计待处理
     [
       "script",
       {},
@@ -51,7 +50,7 @@ export default defineConfig({
   // @ts-ignore
   plugins: [
     ["@vuepress/back-to-top"],
-    // Google 分析
+    // Google 分析 TODO Google分析
     [
       "@vuepress/google-analytics",
       {
@@ -121,8 +120,8 @@ export default defineConfig({
     lastUpdated: "最近更新",
 
     // GitHub 仓库位置
-    repo: "liyupi/codefather",
-    docsBranch: "master",
+    repo: "lanxin1216/alan-documents",
+    docsBranch: "main",
 
     // 编辑链接
     editLinks: true,
@@ -131,7 +130,5 @@ export default defineConfig({
     // @ts-ignore
     // 底部版权信息
     footer,
-    // 额外右侧边栏
-    extraSideBar,
   },
 });
