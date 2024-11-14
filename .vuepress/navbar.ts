@@ -29,6 +29,10 @@ export default [
         link: '/资源/'
     },
     {
+        text: "博客文章",
+        link: '/博客文章'
+    },
+    {
         text: "作者",
         link: '/作者'
     }
