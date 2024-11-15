@@ -30,7 +30,7 @@ export default [
     },
     {
         text: "博客文章",
-        link: '/博客文章'
+        link: '/博客文章/'
     },
     {
         text: "作者",
