@@ -26,7 +26,7 @@ export default [
     },
     {
         text: "资源",
-        link: '/资源/'
+        link: '/学习资源/'
     },
     {
         text: "博客文章",

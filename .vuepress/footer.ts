@@ -6,11 +6,11 @@ export default {
     {
       label: "Alan",
       // icon: "/icon/user.svg",
-      href: "https://yuyuanweb.feishu.cn/wiki/Abldw5WkjidySxkKxU2cQdAtnah",
+      href: "",
     },
     {
       label: "Alan&Blog",
-      href: "https://yuyuanweb.com/",
+      href: "",
     }
   ],
   copyright: {
